@@ -2,9 +2,9 @@
 
 pragma solidity ^0.8.19;
 
-import {Script} from "../lib/forge-std/src/Script.sol";
-import {FundMe} from "../src/FundMe.sol";
-import {MockV3Aggregator} from "../test/mocks/MockV3Aggregator.sol";
+import {Script} from "lib/forge-std/src/Script.sol";
+import {FundMe} from "src/FundMe.sol";
+import {MockV3Aggregator} from "test/mocks/MockV3Aggregator.sol";
 
 contract HelperConfig is Script {
     NetworkConfig public activeNetworkConfig;
